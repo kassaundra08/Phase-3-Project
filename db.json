@@ -4,7 +4,7 @@
     "id": 1,
     "flavor": "Sugar",
     "brand": "Google",
-    "image": "https://photos.app.goo.gl/i1naZme3Yh8YAfUA6",
+    "image": "src/images/Google Cookies.jpg",
     "ingredients": [
         "White Sugar",
         "Butter",
@@ -18,7 +18,7 @@
     "id": 2,
     "flavor": "Chocolate Chip",
     "brand": "Microsoft",
-    "image": "https://photos.app.goo.gl/2G7YQaYtGevobCbq6",
+    "image": "src/images/Microsoft Cookies.jpg",
     "ingredients": [
         "Butter",
         "Eggs",
@@ -33,7 +33,7 @@
     "id": 3,
     "flavor": "Ginger Snaps",
     "brand": "TikTok",
-    "image": "https://photos.app.goo.gl/wym3rgHjYn3WSNbq9",
+    "image": "src/images/TikTok Cookies.jpg",
     "ingredients": [
         "Butter",
         "Brown Sugar",
