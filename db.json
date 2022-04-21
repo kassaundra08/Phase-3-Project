@@ -1,49 +1,49 @@
 {
-"cookies": [
-    {
-    "id": 1,
-    "flavor": "Sugar",
-    "brand": "Google",
-    "image": "src/images/Google Cookies.jpg",
-    "ingredients": [
-        "White Sugar",
-        "Butter",
-        "Eggs",
-        "Flour",
-        "Vanilla",
-        "Baking Soda"
-        ]
-    },
-    {
-    "id": 2,
-    "flavor": "Chocolate Chip",
-    "brand": "Microsoft",
-    "image": "src/images/Microsoft Cookies.jpg",
-    "ingredients": [
-        "Butter",
-        "Eggs",
-        "White Sugar",
-        "Baking Soda",
-        "Flour",
-        "Chocolate Chips",
-        "Vanilla"
-        ]
-    },
-    {
-    "id": 3,
-    "flavor": "Ginger Snaps",
-    "brand": "TikTok",
-    "image": "src/images/TikTok Cookies.jpg",
-    "ingredients": [
-        "Butter",
-        "Brown Sugar",
-        "Eggs",
-        "Baking Soda",
-        "Flour",
-        "Milk",
-        "Soy",
-        "Nutmeg"
-        ]
+    "cookies": [
+        {
+        "id": 1,
+        "flavor": "Sugar",
+        "brand": "Google",
+        "image": "images/Google Cookies.jpg",
+        "ingredients": [
+            "White Sugar",
+            "Butter",
+            "Eggs",
+            "Flour",
+            "Vanilla",
+            "Baking Soda"
+            ]
+        },
+        {
+        "id": 2,
+        "flavor": "Chocolate Chip",
+        "brand": "Microsoft",
+        "image": "images/Microsoft Cookies.jpg",
+        "ingredients": [
+            "Butter",
+            "Eggs",
+            "White Sugar",
+            "Baking Soda",
+            "Flour",
+            "Chocolate Chips",
+            "Vanilla"
+            ]
+        },
+        {
+        "id": 3,
+        "flavor": "Ginger Snaps",
+        "brand": "TikTok",
+        "image": "images/TikTok Cookies.jpg",
+        "ingredients": [
+            "Butter",
+            "Brown Sugar",
+            "Eggs",
+            "Baking Soda",
+            "Flour",
+            "Milk",
+            "Soy",
+            "Nutmeg"
+            ]
+        }
+    ]
     }
-]
-}

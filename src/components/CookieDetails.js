@@ -1,11 +1,15 @@
 import React from "react";
 
-function CookieDetails() {
 
+function CookieDetails({selectedCookie}) {
+    const {flavor, brand, image} = selectedCookie
 
-  return (
+    return (
         <div className="main" id="details">
-            <h2>Cookie Details</h2>
+            <img src={image} alt="Cookie"/>
+            <h1>{flavor}</h1>
+            <h3>{brand}</h3>
+            <h4>ingredients</h4>
         </div>
     );
 }

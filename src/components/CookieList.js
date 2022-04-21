@@ -1,10 +1,9 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import Cookie from "./Cookie.js"
+import Cookie from "./Cookie.js";
 
-function CookieList({cookies}, {setCookies}) {
+function CookieList({cookies}, {selectedCookie}, {setSelectedCookie}) {
     const renderCookies = cookies.map((cookie) => {
-        return <Cookie key={cookie.id} cookie={cookie}/>
+        return <Cookie key={cookie.id} cookie={cookie} selectedCookie={selectedCookie} setSelectedCookie={setSelectedCookie}/>
     })
 
     return (
