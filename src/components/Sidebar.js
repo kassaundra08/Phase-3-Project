@@ -3,8 +3,9 @@ import CartItem from "./CartItem.js"
 
 function Sidebar({cartItems}, {setCartItems}) {
 
+    
+
     const renderCartItems = cartItems
-    .filter((cartItem) => cartItem.inCart === false)
     .map((cartItem) => {
         return <CartItem key={cartItem.id} cartItem={cartItem}  />
     })

@@ -1,9 +1,9 @@
 import React from "react";
 import Cookie from "./Cookie.js";
 
-function CookieList({cookies}, {selectedCookie}) {
+function CookieList({cookies, cartItems, setCartItems}) {
     const renderCookies = cookies.map((cookie) => {
-        return <Cookie key={cookie.id} cookie={cookie} selectedCookie={selectedCookie} />
+        return <Cookie key={cookie.id} cookie={cookie} cartItems={cartItems} setCartItems={setCartItems}/>
     })
 
     return (

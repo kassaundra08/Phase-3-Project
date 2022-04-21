@@ -5,15 +5,16 @@ import Sidebar from './Sidebar.js';
 
 function App() {
   const [cookies, setCookies] = useState([]);
-  const [cartItems, setCartItems] = useState([]);
+  const [cartItems, setCartItems] = useState(["Your cart is empty"]);
 
+  console.log(cartItems)
+  
   useEffect(() => {
     function fetchCookies() {
       fetch('http://localhost:9292/cookies')
       .then(res => res.json())
       .then(cookieData => {
         setCookies(cookieData)
-        setCartItems(cookieData)
       })
     }  
     fetchCookies();
