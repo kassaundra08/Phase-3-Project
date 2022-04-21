@@ -22,8 +22,12 @@ return (
         <h2>{flavor}</h2>
         <h4>{brand}</h4>
         <h3>{price}</h3>
-        <button onClick={addToCart}>Add to Cart</button>
-        <button onClick={deleteCookie}>Delete</button>
+        <button >Add to Cart</button>
+        <p></p>
+        <button 
+        className="delete_button"
+        onClick={deleteCookie}>Delete</button>
+        <p></p>
         <div className="tooltip">See Ingredients
           <span className="tooltiptext">Ingredients</span>
         </div>

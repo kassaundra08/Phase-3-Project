@@ -4,7 +4,7 @@
         "id": 1,
         "flavor": "Sugar",
         "brand": "Google",
-        "image": "images/Google Cookies.jpg",
+        "image": ".src/images/Google.jpg",
         "ingredients": [
             "White Sugar",
             "Butter",
