@@ -13,7 +13,7 @@ function Sidebar({cartItems}, {setCartItems}) {
 
     return (
         <div className="sidenav">
-            <h1>My Cart</h1>
+            <h1 className="myCart">My Cart</h1>
             <ul>
                 {renderCartItems}
             </ul>

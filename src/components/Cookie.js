@@ -16,7 +16,11 @@ return (
         <h4>{brand}</h4>
         <h3>{price}</h3>
         <button >Add to Cart</button>
-        <button onClick={deleteCookie}>Delete</button>
+        <p></p>
+        <button 
+        className="delete_button"
+        onClick={deleteCookie}>Delete</button>
+        <p></p>
         <div className="tooltip">See Ingredients
           <span className="tooltiptext">Ingredients</span>
         </div>

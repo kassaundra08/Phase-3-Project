@@ -8,6 +8,8 @@
     background-color: rgb(205, 205, 205);
     overflow-x: hidden;
     padding-left: 10px;
+    text-align: center;
+    font: 12px ""
   }
 
   .app {
@@ -67,4 +69,24 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.main {
+  margin-left: -300px;
+}
+
+.myCart {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cookieCard {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: solid;
+}
+
+.deleteButton {
+  align-items: center;
+  padding-bottom: 10px;
 }

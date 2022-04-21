@@ -1,21 +1,25 @@
 .carousel {
-    width: 700px;
-    height: 700px;
-    background-color: white;
-    margin-left: 600px;
+    width: 600px;
+    height: 600px;
+    margin-left: 800px;
     padding: 0px 10px;
     text-align: center;
     margin-top: 100px;
+    position: fixed;
+    border-color: black;
 
 }
 
 .carouselImages {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color: black;
 
 }
 
@@ -25,19 +29,25 @@
     display: grid;
     place-items: center;
     
+    
 }
 
 .carouselImages .left .leftButton {
-    color: gray;
-    background-color: none;
+    color: rgba(255, 255, 255, 0.761);
+    background-color: green;
     cursor: pointer;  
     font-size: 10px;
     transition: all 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 20px;
+    border-radius: 16px;
+    border-color:rgba(255, 255, 255, 0.761);
 }
 
 .carouselImages .left .leftButton:hover {
-    color:#000000;
-    background-color:#FFFFFF;
+    color:rgba(255, 255, 255, 0.761);
+    background-color: blue;
+    box-shadow:rgba(255, 255, 255, 0.761)
 }
 
 .carouselImages .right {
@@ -53,22 +63,26 @@
 }
 
 .carouselImages .right .rightButton {
-    color: gray;
-    background-color: none;
+    color: rgba(255, 255, 255, 0.761);
+    background-color: green;
     cursor: pointer;  
-    font-size: 10px;
+    font-size: 20px;
     transition: all 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 16px;
+    border-color:rgba(255, 255, 255, 0.761);
 }
 
 .carouselImages .right .rightButton:hover {
-    color:#000000;
-    background-color:#FFFFFF;
+    color:rgba(255, 255, 255, 0.761);
+    background-color: blue;
+    box-shadow:rgba(255, 255, 255, 0.761)
 }
 
 .container-dots {
     position: absolute;
-    bottom: 115px;
-    left: 65%;
+    bottom: -40px;
+    left: 50%;
     transform: translateX(-50%);
     display: flex;
   }
