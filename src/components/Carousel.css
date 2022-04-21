@@ -1,0 +1,86 @@
+.carousel {
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    margin-left: 600px;
+    padding: 0px 10px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.carouselImages {
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.carouselImages .left {
+    flex: 5%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+.carouselImages .left .leftButton {
+    color: gray;
+    background-color: none;
+    cursor: pointer;  
+    font-size: 10px;
+    transition: all 0.2s;
+}
+
+.carouselImages .left .leftButton:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.carouselImages .right {
+    flex: 5%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.carouselImages .center {
+    flex: 90%;
+    height: 100%;
+}
+
+.carouselImages .right .rightButton {
+    color: gray;
+    background-color: none;
+    cursor: pointer;  
+    font-size: 10px;
+    transition: all 0.2s;
+}
+
+.carouselImages .right .rightButton:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.container-dots {
+    position: absolute;
+    bottom: 115px;
+    left: 65%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+    margin: 0 5px;
+    background: #f1f1f1;
+  }
+  .dot.active {
+    background: rgb(32, 32, 32);
+  }
+

@@ -8,6 +8,7 @@ import CookieDetails from './CookieDetails.js'
 function App() {
   const [cookies, setCookies] = useState([]);
 
+
   function fetchCookies() {
     fetch('http://localhost:4000/cookies')
     .then(res => res.json())
@@ -15,6 +16,8 @@ function App() {
   }
 
   useEffect(fetchCookies, [])
+
+
 
   return (
     <div className="app">
