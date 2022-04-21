@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "cookies": [
         {
         "id": 1,
@@ -47,3 +48,53 @@
         }
     ]
     }
+=======
+"cookies": [
+    {
+    "id": 1,
+    "flavor": "Sugar",
+    "brand": "Google",
+    "image": "src/images/googleCookies.jpg",
+    "ingredients": [
+        "White Sugar",
+        "Butter",
+        "Eggs",
+        "Flour",
+        "Vanilla",
+        "Baking Soda"
+        ]
+    },
+    {
+    "id": 2,
+    "flavor": "Chocolate Chip",
+    "brand": "Microsoft",
+    "image": "src/images/microsoftCookies.jpg",
+    "ingredients": [
+        "Butter",
+        "Eggs",
+        "White Sugar",
+        "Baking Soda",
+        "Flour",
+        "Chocolate Chips",
+        "Vanilla"
+        ]
+    },
+    {
+    "id": 3,
+    "flavor": "Ginger Snaps",
+    "brand": "TikTok",
+    "image": "src/images/tikTokCookies.jpg",
+    "ingredients": [
+        "Butter",
+        "Brown Sugar",
+        "Eggs",
+        "Baking Soda",
+        "Flour",
+        "Milk",
+        "Soy",
+        "Nutmeg"
+        ]
+    }
+]
+}
+>>>>>>> c1873b1a7f347c8a01cc8baf2398bd6d85588de9

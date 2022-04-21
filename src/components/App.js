@@ -25,6 +25,8 @@ function App() {
   }, []);
 
 
+
+
   return (
     <div className="app">
       <Sidebar cartItems={cartItems} setCartItems={setCartItems}/>
