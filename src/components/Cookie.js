@@ -11,7 +11,7 @@ function Cookie({cookie}) {
 
 return (
     <div className="cookieCard">
-        <img src="https://ibb.co/ZYNYzyW" loading="lazy" alt="Cookie" className="cookie_image" />
+        <img src={image} loading="lazy" alt="Cookie" className="cookie_image" />
         <h2>{flavor}</h2>
         <h4>{brand}</h4>
         <h3>{price}</h3>
