@@ -1,23 +1,15 @@
-import GoogleImages from '../images/googleCookies.jpg'
-import MicrosoftImages from '../images/microsoftCookies.jpg'
-import TikTokImages from '../images/tikTokCookies.jpg'
-import AmazonImages from '../images/amazon.jpg'
-import AppleImages from '../images/apple.jpg'
-import YoutubeImages from '../images/youtube.jpg'
-import LinkedInImages from '../images/linkedInImage.jpg'
-
 export const images = [
-    {title: "Google Cookies", img: GoogleImages},
+    {title: "Google Cookies", img: "/images/googleCookies.jpg"},
 
-    {title: "Microsoft Cookies", img: MicrosoftImages},
+    {title: "Microsoft Cookies", img: "/images/microsoftCookies.jpg"},
 
-    {title: "TikTok Cookies", img: TikTokImages},
+    {title: "TikTok Cookies", img: "/images/tikTokCookies.jpg"},
 
-    {title: "Amazon Cookies", img: AmazonImages},
+    {title: "Amazon Cookies", img: "/images/amazon.jpg"},
 
-    {title: "Apple Cookies", img: AppleImages},
+    {title: "Apple Cookies", img: "/images/apple.jpg"},
 
-    {title: "Youtube Cookies", img: YoutubeImages},
+    {title: "Youtube Cookies", img: "/images/youtube.jpg"},
 
-    {title: "LinkedIn Cookies", img: LinkedInImages}
+    {title: "LinkedIn Cookies", img: "images/linkedInImage.jpg"}
 ]

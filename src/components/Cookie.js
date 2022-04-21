@@ -1,13 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
 
-function Cookie({cookie}, {setSelectedCookie}) {
-  const {flavor, brand, image, price} = cookie
-  
-  function selectCookie(e){
-    const clickedCookie = cookie;
-    setSelectedCookie(clickedCookie)
-  }
+function Cookie({cookie}) {
+  const {flavor, brand, image, price, ingredients} = cookie
 
   function deleteCookie(e) {
     fetch(`http://localhost:9292/cookies/${cookie.id}`, {
@@ -17,12 +11,15 @@ function Cookie({cookie}, {setSelectedCookie}) {
 
 return (
     <div className="cookieCard">
-        <Link to="/details"><img src={image} loading="lazy" alt="Cookie" className="cookie_image" onClick={selectCookie}/></Link>
+        <img src="https://ibb.co/ZYNYzyW" loading="lazy" alt="Cookie" className="cookie_image" />
         <h2>{flavor}</h2>
         <h4>{brand}</h4>
         <h3>{price}</h3>
         <button >Add to Cart</button>
         <button onClick={deleteCookie}>Delete</button>
+        <div className="tooltip">See Ingredients
+          <span className="tooltiptext">Ingredients</span>
+        </div>
     </div>
 );
 }

@@ -3,10 +3,8 @@ import CartItem from "./CartItem.js"
 
 function Sidebar({cartItems}, {setCartItems}) {
 
-    console.log(cartItems)
-
     const renderCartItems = cartItems
-    .filter((cartItem) => cartItem.inCart === true)
+    .filter((cartItem) => cartItem.inCart === false)
     .map((cartItem) => {
         return <CartItem key={cartItem.id} cartItem={cartItem}  />
     })

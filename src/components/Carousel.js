@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Carousel.css"
+import "../Carousel.css"
 import {images} from '../Helper/CarouselData';
 
 function Carousel() {
@@ -17,7 +17,7 @@ return (
             <div className= "left"> 
             <button
             className= "leftButton"
-             onClick={() => {currentImage > 0 && setCurrentImage(currentImage - 1);}} >x</button>
+            onClick={() => {currentImage > 0 && setCurrentImage(currentImage - 1);}} >x</button>
             </div>
             
             <div className= "center"></div>
@@ -27,11 +27,11 @@ return (
             </div>
 
             <div className="container-dots">
-               {Array.from({length: 7}).map((item, index) => (<div
-               onClick={() => moveDot(index)}
-               className={currentImage === index ? "dot active" : "dot"}
-               ></div>))}
-               </div>
+                {Array.from({length: 7}).map((item, index) => (<div
+                onClick={() => moveDot(index)}
+                className={currentImage === index ? "dot active" : "dot"}
+                ></div>))}
+                </div>
 
         </div> 
     </div>
