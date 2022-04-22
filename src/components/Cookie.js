@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from 'framer-motion';
 
 function Cookie({cookie, cartItems, setCartItems}) {
   const {flavor, brand, image, price, ingredients} = cookie
@@ -22,11 +23,16 @@ return (
         <h2>{flavor}</h2>
         <h4>{brand}</h4>
         <h3>{price}</h3>
-        <button >Add to Cart</button>
+        <motion.button 
+        whileHover={{
+          scale: 1.1,}}
+        className= "cart_button">Add to Cart</motion.button>
         <p></p>
-        <button 
+        <motion.button 
+        whileHover={{
+          scale: 1.1,}}
         className="delete_button"
-        onClick={deleteCookie}>Delete</button>
+        onClick={deleteCookie}>Delete</motion.button>
         <p></p>
         <div className="tooltip">See Ingredients
           <span className="tooltiptext">Ingredients</span>
