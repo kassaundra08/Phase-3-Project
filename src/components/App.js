@@ -7,6 +7,7 @@ function App() {
   const [cookies, setCookies] = useState([]);
   const [cartItems, setCartItems] = useState([]);
   const [total, setTotal] = useState(0)  
+  const [reviews, setReviews] = useState("")
   
   function fetchCookies() {
     fetch('http://localhost:9292/cookies')
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className="app">
-      <Sidebar cartItems={cartItems} total={total}/>
+      <Sidebar cartItems={cartItems} total={total} reviews={reviews} setReviews={setReviews}/>
       <Carousel />
       <CookieList cookies={cookies} cartItems={cartItems} setCartItems={setCartItems} fetchCookies={fetchCookies} total={total} setTotal={setTotal}/>
     </div> 
