@@ -2,10 +2,12 @@ import React from "react";
 
 function CartItem({cartItem} ) {
   const {flavor, price} = cartItem
-
+  
     return (
-        <li>{flavor}: {price}</li>
+      <div >
+        <p>{flavor}: $ {price}</p>
+      </div>
     );
 }
-
+ 
 export default CartItem;

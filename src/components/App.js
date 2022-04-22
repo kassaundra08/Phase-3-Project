@@ -5,27 +5,23 @@ import Sidebar from './Sidebar.js';
 
 function App() {
   const [cookies, setCookies] = useState([]);
-  const [cartItems, setCartItems] = useState(["Your cart is empty"]);
-
-  console.log(cartItems)
+  const [cartItems, setCartItems] = useState([]);
+  const [total, setTotal] = useState(0)  
   
-  useEffect(() => {
-    function fetchCookies() {
-      fetch('http://localhost:9292/cookies')
-      .then(res => res.json())
-      .then(cookieData => {
-        setCookies(cookieData)
-      })
-    }  
-    fetchCookies();
-  }, []);
+  function fetchCookies() {
+    fetch('http://localhost:9292/cookies')
+    .then(res => res.json())
+    .then(cookieData => setCookies(cookieData)
+    )}  
+
+  useEffect(fetchCookies, []);
 
   return (
     <div className="app">
-      <Sidebar cartItems={cartItems} setCartItems={setCartItems}/>
+      <Sidebar cartItems={cartItems} total={total}/>
       <Carousel />
-      <CookieList cookies={cookies} cartItems={cartItems} setCartItems={setCartItems}/>
-    </div>
+      <CookieList cookies={cookies} cartItems={cartItems} setCartItems={setCartItems} fetchCookies={fetchCookies} total={total} setTotal={setTotal}/>
+    </div> 
   );
 }
 
