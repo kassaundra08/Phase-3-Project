@@ -1,12 +1,26 @@
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url(../public/fonts/Pacifico-Regular.ttf);
+  }
+
 .carousel {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin-left: 800px;
     padding: 0px 10px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: -120px;
     position: fixed;
     border-color: black;
+}
+
+.carousel_header {
+    padding: 50px;
+    font-family: Pacifico-Regular;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://media4.giphy.com/media/l378vg4Pm9LGnmD6M/giphy.gif?cid=790b76118208c7f80bfda9726761f5cf3f2983d6c629a730&rid=giphy.gif&ct=g);
+   font-size: 70px;
 
 }
 
@@ -20,7 +34,7 @@
     border-radius: 5%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-color: black;
-
+margin-top: -100px;
 }
 
 .carouselImages .left {
@@ -42,6 +56,8 @@
     font-size: 20px;
     border-radius: 16px;
     border-color:rgba(255, 255, 255, 0.761);
+    font-family: Pacifico-Regular;
+
 }
 
 .carouselImages .left .leftButton:hover {
@@ -71,6 +87,7 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 16px;
     border-color:rgba(255, 255, 255, 0.761);
+    font-family: Pacifico-Regular;
 }
 
 .carouselImages .right .rightButton:hover {
@@ -81,7 +98,7 @@
 
 .container-dots {
     position: absolute;
-    bottom: -40px;
+    bottom: -400px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

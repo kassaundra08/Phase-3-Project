@@ -1,25 +1,36 @@
 .sidenav {
-    height: 100%;
+    height: 90%;
     width: 350px; 
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(205, 205, 205);
+    top: 6%;
+    left: 15px;
+    background-color: transparent;
     overflow-x: hidden;
     padding-left: 10px;
     text-align: center;
-    font: 12px ""
+    font: 12px;
+    font-family: Pacifico-Regular;
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+    
+  
   }
 
   .app {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(https://thiscouldbebetter.files.wordpress.com/2013/04/parallaxscrolling.gif);
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
   }
 
   .cookie_image {
-    width: 300px;
+    width: 50px;
     height: auto;
   }
 
@@ -76,7 +87,10 @@
 }
 
 .myCart {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Pacifico-Regular;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(https://media4.giphy.com/media/l378vg4Pm9LGnmD6M/giphy.gif?cid=790b76118208c7f80bfda9726761f5cf3f2983d6c629a730&rid=giphy.gif&ct=g);
 }
 
 .cookieCard {
@@ -84,9 +98,55 @@
   text-align: center;
   padding: 20px;
   border: solid;
+  margin-top: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 16px;
+font-family: Pacifico-Regular;
+background-color: transparent;
+color: white;
+margin-right: -100px;
 }
 
-.deleteButton {
-  align-items: center;
-  padding-bottom: 10px;
+.delete_button {
+  color: rgba(255, 255, 255, 0.761);
+  background-color: green;
+  cursor: pointer;  
+  font-size: 15px;
+  transition: all 0.2s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 16px;
+  border-color:rgba(255, 255, 255, 0.761);
+  font-family: Pacifico-Regular;
+}
+
+.cart_button {
+  color: rgba(255, 255, 255, 0.761);
+    background-color: green;
+    cursor: pointer;  
+    font-size: 15px;
+    transition: all 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 16px;
+    border-color:rgba(255, 255, 255, 0.761);
+    font-family: Pacifico-Regular;
+}
+.cart_button:hover {
+  color:rgba(255, 255, 255, 0.761);
+    background-color: blue;
+    box-shadow:rgba(255, 255, 255, 0.761)
+}
+.delete_button:hover {
+  color:rgba(255, 255, 255, 0.761);
+    background-color: blue;
+    box-shadow:rgba(255, 255, 255, 0.761)
+}
+
+.review_card {
+  color:white;
+  border-radius: 16px;
+}
+
+.review_form {
+  border-radius: 50px;
+  
 }

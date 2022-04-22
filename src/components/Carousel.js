@@ -13,6 +13,7 @@ function Carousel() {
 
 return (
     <div className="carousel">
+        <h1 className="carousel_header">COOKIES R US</h1>
         <div className="carouselImages" 
         style={{backgroundImage: `url(${images[currentImage].img})`}} >
             <div className= "left"> 

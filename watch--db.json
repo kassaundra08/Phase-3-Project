@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "body": "bjubjnjn",
+      "id": 4
+    },
+    {
+      "body": "lmknjk",
+      "id": 5
+    },
+    {
+      "body": "lmknjk",
+      "id": 6
+    },
+    {
+      "body": "lmknjk",
+      "id": 7
+    },
+    {
+      "body": "lmknjk",
+      "id": 8
+    },
+    {
+      "body": "lmknjk",
+      "id": 9
+    },
+    {
+      "body": "lmknjk",
+      "id": 10
+    },
+    {
+      "body": "lmknjk",
+      "id": 11
+    },
+    {
+      "body": "lmknjk",
+      "id": 12
+    },
+    {
+      "body": "lmknjk",
+      "id": 13
+    },
+    {
+      "body": "lmknjk",
+      "id": 14
+    },
+    {
+      "body": "lmknjk",
+      "id": 15
+    },
+    {
+      "body": "lmknjk",
+      "id": 16
+    },
+    {
+      "body": "lmknjk",
+      "id": 17
+    },
+    {
+      "body": "lmknjk",
+      "id": 18
+    },
+    {
+      "body": "lmknjk",
+      "id": 19
+    },
+    {
+      "body": "lmknjk",
+      "id": 20
+    },
+    {
+      "body": "lmknjk",
+      "id": 21
+    },
+    {
+      "body": "lmknjk",
+      "id": 22
+    },
+    {
+      "body": "lmknjk",
+      "id": 23
+    },
+    {
+      "body": "lmknjk",
+      "id": 24
+    },
+    {
+      "body": "lmknjk",
+      "id": 25
+    },
+    {
+      "body": "hfhngvnb",
+      "id": 26
+    },
+    {
+      "body": "hfhgdh",
+      "id": 27
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
